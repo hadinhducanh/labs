@@ -11,7 +11,7 @@ function FilmDetail() {
       <p>Year: {film.year}</p>
       <p>Nation: {film.nation}</p>
       <p>{film.trailer}</p>
-      <a href="/">Back</a>
+      <a href="/">Backk</a>
     </div>
   );
 }
