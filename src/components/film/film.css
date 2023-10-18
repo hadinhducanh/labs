@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    position: relative;
+    margin: 1rem;
+    width: 500px;
+}
+
+.item {
+    display: flex;
+    height: 500px;
+    position: relative;
+}
+
+.avatarImg img {
+    /* border-radius: 10px; */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.advisor {
+    border-radius: 0 0 10px 10px;
+    background: rgb(121, 115, 115);
+    /* height: 100%; */
+    /* padding: 24px; */
+    position: relative;
+    row-gap: 16px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.profile {
+    row-gap: 10px;
+    display: flex;
+    flex-flow: column;
+    padding: 10px 10px 20px;
+}
+
+.name {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    /* padding-bottom: 5px; */
+}
+
+.year {
+    text-align: center;
+}
+
+
+.info {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 12.5px;
+    color: #fff;
+    font-weight: 600;
+    padding: 4px 10px;
+    margin-right: 5px;
+}
+
+
+
+.skills {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
