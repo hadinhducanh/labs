@@ -1,26 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import { ListOfFilms } from "../data/ListOfFilms";
 import "./film.css";
-import "./FilmDetailModal";
-import FilmDetailModal from "./FilmDetailModal";
+
+import { Link } from 'react-router-dom';
+
 
 function Film  (){
-  const [showDetailModal, setShowDetailModal] = useState(false);
-  const [selectedFilm, setSelectedFilm] = useState(null);
-
-  function handleOpenModal (film) {
-    setSelectedFilm(film);
-    setShowDetailModal(true);
-  };
-
-  function handleCloseModal  ()  {
-    setShowDetailModal(false);
-  };
+  
 
   return (
     <div className="container">
       {ListOfFilms.map((film) => (
         <div className="card" key={film.id}> 
+        <div className="skills">
+              <Link to={`/detail/${film.id}`} class="link">Detail</Link>
+            </div>
           <div className="item">
             <div className="avatarImg">
               <img src={film.image} alt={film.image} />
@@ -36,25 +30,13 @@ function Film  (){
                 
               </div>
             </div>
-            
-          <div>
-            <div className="skills">
-              <button onClick={() => handleOpenModal(film)}>Detail</button>
-              
-            </div>
-          </div>
-          
-          
-       
-        
-         
+           
         </div>
       ))}
-      {showDetailModal && (
-        <FilmDetailModal film={selectedFilm} onClose={handleCloseModal} />
-      )}
+      
       
     </div>
+    
   );
 };
 
