@@ -15,10 +15,27 @@
     height: 500px;
     position: relative;
 }
+.item:hover .avatarImg img {
+    filter: brightness(.85);
+    transform: scale(1.1);
 
+}
+.item:hover .name {
+    background-size: 0 3px, 100% 3px;
+}
+.avatarImg {
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 20%);
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
 .avatarImg img {
     /* border-radius: 10px; */
+    filter: brightness(.9);
     object-fit: cover;
+    transition: transform .5s ease-in-out, filter .5s ease-in-out;
     height: 100%;
     width: 100%;
 }
@@ -83,8 +100,5 @@
 		font-size: 15px;
 		box-shadow: rgba(0, 7, 14, 0.452) 0px -1px 5px 0px inset,
       rgba(0, 0, 0, 0.205) 0px 2px 2px 0px;
-}
-.detail{
-   
 }
 
