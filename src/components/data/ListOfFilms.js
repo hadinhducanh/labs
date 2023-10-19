@@ -15,6 +15,7 @@ export const ListOfFilms = [
     title: "Đứa con của thời tiết",
     year: "2019",
     nation: "JAPAN",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/2P0dvE-4uCU?si=fclA2rwgoevP4Tey" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 3,
@@ -22,6 +23,7 @@ export const ListOfFilms = [
     title: "Tên cậu là gì?",
     year: "2016",
     nation: "JAPAN",
+    trailer:<iframe width="560" height="315" src="https://www.youtube.com/embed/_mifHzxFNQ4?si=67x3RmZz5MzKcuFj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 4,
@@ -30,6 +32,7 @@ export const ListOfFilms = [
     title: "Mộ đom đóm",
     year: "1988",
     nation: "JAPAN",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/4vPeTSRd580?si=JLcpoCKql6PKg-Db" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 5,
@@ -37,6 +40,7 @@ export const ListOfFilms = [
     title: "Naruto Shippuden",
     year: "1999",
     nation: "JAPAN",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/KePpQ8kAJnI?si=g2VM_CcWpVgZuwCi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 6,
@@ -45,6 +49,7 @@ export const ListOfFilms = [
     title: "Tớ muốn ăn tụy của cậu",
     year: "2019",
     nation: "JAPAN",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/_zlPN_EI8pI?si=ZJDIZmFkmHbh9X-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 7,
@@ -53,6 +58,7 @@ export const ListOfFilms = [
     title: "Hachiko chú chó trung thành",
     year: "2009",
     nation: "USA",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6U7mAnPtw4?si=oOboZSLN1PbFBtcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 8,
@@ -61,6 +67,7 @@ export const ListOfFilms = [
     title: "Cây táo nở hoa",
     year: "2021",
     nation: "Việt Nam",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/y_taUCoa9m4?si=a9U831o6-7A7YQ53" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     id: 9,
@@ -69,5 +76,6 @@ export const ListOfFilms = [
     title: "Sen và Chihiro ở thế giới thần bí",
     year: "2001",
     nation: "JAPAN",
+    trailer: <iframe width="560" height="315" src="https://www.youtube.com/embed/ByXuk9QqQkk?si=xp1O37b9n_TeNch5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
 ];
