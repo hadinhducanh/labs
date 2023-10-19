@@ -5,7 +5,7 @@ function Navigation ()  {
     return (
       <header>
         <div className="header">
-          <div className="headerLogo">FILMS</div>
+          <a class="headerLogo" href="/">FILMS</a>
           <div className="navbar">
             <nav>
               <ul className="nav-cont">
@@ -18,6 +18,16 @@ function Navigation ()  {
                 <li>
                   <a className="contact" href="/contact">
                   Contact
+                  </a>
+                </li>
+                <li>
+                  <a className="about" href="/about">
+                  About
+                  </a>
+                </li>
+                <li>
+                  <a className="news" href="/news">
+                  News
                   </a>
                 </li>
               </ul>
