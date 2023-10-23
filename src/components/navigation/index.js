@@ -1,34 +1,31 @@
 import React from "react";
 import "./navigation.css";
+import { Link } from "react-router-dom";
 function Navigation ()  {
   
     return (
       <header>
         <div className="header">
-          <a class="headerLogo" href="/">FILMS</a>
+         
+          <Link to={`/`} class="headerLogo">FILMS</Link>
           <div className="navbar">
             <nav>
               <ul className="nav-cont">
                 <li>
-                  <a className="active" href="/">
-                    Home
-                  </a>
+                <Link to={`/`} className="home">Home</Link>
                 </li>
 
                 <li>
-                  <a className="contact" href="/contact">
-                  Contact
-                  </a>
+                  <Link to={`/contact`} className="contact">Contact</Link>
+                
+          
                 </li>
                 <li>
-                  <a className="about" href="/about">
-                  About
-                  </a>
+                <Link to={`/about`} className="about">About</Link>
+              
                 </li>
                 <li>
-                  <a className="news" href="/news">
-                  News
-                  </a>
+                <Link to={`/news`} className="news">News</Link>
                 </li>
               </ul>
             </nav>

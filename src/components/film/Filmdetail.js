@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ListOfFilms } from '../data/ListOfFilms';
 import "./film.css";
+import { Link } from "react-router-dom";
 
 function FilmDetail() {
   const { filmId } = useParams();
@@ -12,7 +13,7 @@ function FilmDetail() {
       <p>Year: {film.year}</p>
       <p>Nation: {film.nation}</p>
       <p>{film.trailer}</p>
-      <a href="/">Back</a>
+      <Link to={`/`} className="home">Home</Link>
     </div>
   );
 }
